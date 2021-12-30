@@ -1,8 +1,9 @@
-import NavBars from '../components/NavBars'
+import Seo from "../components/Seo"
 
-export default function Potato() {
+export default function AboutPage() {
     return (
         <div>
+            <Seo title="About" />
             <h1>About</h1>
         </div>
     )
