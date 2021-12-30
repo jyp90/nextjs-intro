@@ -7,7 +7,7 @@ export default function NavBars() {
 
     return <nav>
         <Link style={{color: "red"}} href="/">
-        <a>
+        <a className={router.pathname === '/' ? 'active' : ''}>
           Home
         </a>
             </Link>
@@ -21,10 +21,10 @@ export default function NavBars() {
             background-color: tomato;
         }
         a {
-            text-decoration: none;
+            color: orange;
         }
         .active {
-            color: yellow;
+            color: white;
         }
 
         `}</style>
